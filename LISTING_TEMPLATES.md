@@ -1,9 +1,11 @@
-# Etsy Listing Templates
+# Payhip Listing Templates
 
-These are copy-paste ready listings for your Etsy shop. Each listing includes:
-- Optimized title (140 characters max for Etsy search)
+> **Primary Platform:** [Payhip](https://payhip.com) | **Backup Platform:** [Gumroad](https://gumroad.com)
+
+These are copy-paste ready listings for your Payhip store (also compatible with Gumroad). Each listing includes:
+- Optimized title
 - Compelling description with benefits and what's included
-- 13 tags (max) for SEO
+- Tags/keywords for SEO
 - Pricing recommendations based on competitor analysis
 - Suggested product images to include
 
@@ -13,7 +15,7 @@ These are copy-paste ready listings for your Etsy shop. Each listing includes:
 
 ### Listing 1: Numbers 1-10 Bundle (Core Product)
 
-**Title** (137 chars):
+**Title**:
 Number Tracing Worksheets 1-10 Bundle | Preschool Math Practice | Instant Download | Homeschool Curriculum
 
 **Price**: $11.99 (was $15.00 - show 20% off)
@@ -42,10 +44,10 @@ Number Tracing Worksheets 1-10 Bundle | Preschool Math Practice | Instant Downlo
 >
 > **How It Works:**
 > 1. Purchase this listing
-> 2. Download the PDF instantly (no shipping!)
+> 2. Download the PDF instantly — no shipping!
 > 3. Print at home or any print shop
 > 4. Use with pencils, dry-erase markers (suggest sleeves), or crayons
-> 5. Reuse as often as you like - your purchase never expires!
+> 5. Reuse as often as you like — your purchase never expires!
 >
 > **Why Parents Love Our Worksheets:**
 > ✓ Clean, uncluttered design - no distractions
@@ -59,7 +61,7 @@ Number Tracing Worksheets 1-10 Bundle | Preschool Math Practice | Instant Downlo
 >
 > **Questions?** Message us anytime! We respond within 24 hours.
 
-**Tags** (13 tags):
+**Tags/Keywords**:
 1. number tracing
 2. preschool worksheets
 3. kindergarten math
@@ -78,7 +80,7 @@ Number Tracing Worksheets 1-10 Bundle | Preschool Math Practice | Instant Downlo
 
 ### Listing 2: Numbers 11-20 Extension Pack
 
-**Title** (132 chars):
+**Title**:
 Number Worksheets 11-20 | Tracing & Recognition | Sequel to 1-10 Bundle | Preschool Kindergarten Math
 
 **Price**: $9.99 (was $12.00 - 17% off)
@@ -88,9 +90,9 @@ Number Worksheets 11-20 | Tracing & Recognition | Sequel to 1-10 Bundle | Presch
 >
 > **Includes:** 15+ pages of tracing, recognition, and counting for numbers 11-20
 >
-> **Note:** Numbers 1-10 bundle sold separately. Save 15% with our Complete Numbers 1-20 bundle! (Search our shop for "Complete Number Bundle")
+> **Note:** Numbers 1-10 bundle sold separately. Save 15% with our Complete Numbers 1-20 bundle — search our store!
 
-**Tags**:
+**Tags/Keywords**:
 1. number tracing 11-20
 2. teen numbers
 3. preschool math extension
@@ -109,7 +111,7 @@ Number Worksheets 11-20 | Tracing & Recognition | Sequel to 1-10 Bundle | Presch
 
 ### Listing 3: Complete Numbers 1-20 Bundle (Value Offer)
 
-**Title** (138 chars):
+**Title**:
 Complete Number Tracing Bundle 1-20 | Preschool Kindergarten Math | 35+ Pages | Save 20% vs Buying Separately
 
 **Price**: $18.99 (was $24.00 - 21% off)
@@ -125,7 +127,7 @@ Complete Number Tracing Bundle 1-20 | Preschool Kindergarten Math | 35+ Pages | 
 >
 > **Perfect For:** Complete preschool/kindergarten year, homeschooling multiple children, teachers wanting a full set.
 
-**Tags**:
+**Tags/Keywords**:
 1. number tracing 1-20
 2. complete math bundle
 3. preschool curriculum
@@ -146,7 +148,7 @@ Complete Number Tracing Bundle 1-20 | Preschool Kindergarten Math | 35+ Pages | 
 
 ### Listing 4: Monthly Homeschool Budget Spreadsheet
 
-**Title** (137 chars):
+**Title**:
 Homeschool Budget Spreadsheet | Google Sheets Excel Template | Monthly Expense Tracker | Curriculum Costs
 
 **Price**: $12.99 (was $16.00 - 19% off)
@@ -195,7 +197,7 @@ Homeschool Budget Spreadsheet | Google Sheets Excel Template | Monthly Expense T
 >
 > **License:** Single family use. Co-op groups: contact us for multi-family license.
 
-**Tags** (13):
+**Tags/Keywords** (13):
 1. homeschool budget
 2. spreadsheet template
 3. Google Sheets
@@ -214,7 +216,7 @@ Homeschool Budget Spreadsheet | Google Sheets Excel Template | Monthly Expense T
 
 ### Listing 5: Complete Homeschool Finance Bundle
 
-**Title** (137 chars):
+**Title**:
 Homeschool Budget Bundle | Monthly + Annual + Curriculum Tracker | Excel Google Sheets | Finance Pack
 
 **Price**: $24.99 (was $32.00 - 22% off)
@@ -257,7 +259,7 @@ Homeschool Budget Bundle | Monthly + Annual + Curriculum Tracker | Excel Google 
 >
 > **License:** Single family / personal use. Group/co-op license available - message us.
 
-**Tags**:
+**Tags/Keywords**:
 1. homeschool finance bundle
 2. budget spreadsheet
 3. curriculum tracker
@@ -274,28 +276,30 @@ Homeschool Budget Bundle | Monthly + Annual + Curriculum Tracker | Excel Google 
 
 ---
 
-## Etsy Optimization Notes
+## Payhip Store Optimization Notes
 
-### Category Selection
-- **Preschool Worksheets:** Home & Living → Paper & Party Supplies → Stationery → Design & Templates → Templates
-- **Budget Spreadsheets:** Home & Living → Paper & Party Supplies → Stationery → Design & Templates → Planner Templates
+> **Backup:** All of the below also applies to Gumroad listings.
+
+### Category Selection (Payhip)
+- **Preschool Worksheets:** Education → Printables / Worksheets
+- **Budget Spreadsheets:** Business → Templates / Spreadsheets
 
 ### Attributes to Set
 - **Digital product** ✓
 - **Instant download** ✓
-- **Who it's for:** Parents, Teachers, Homeschoolers
+- **Target audience:** Parents, Teachers, Homeschoolers
 - **Occasion:** Back to School, Homeschool, Everyday
 - **Season:** All seasons (not seasonal)
 
 ### Pricing Strategy
-- **List at 20-25% off** to allow for occasional 50% off sales without losing money
+- **Show a sale price** — list at 20-25% off original to allow for occasional deeper promotions
 - **Monitor competitors:** Adjust prices monthly based on 3-5 similar listings
-- **Bundle discount:** Offer 15-20% off for bundles (numbers 1-20 bundle, Finance bundle)
+- **Bundle discount:** Offer 15-20% off for bundles (complete numbers bundle, Finance bundle)
 
 ### SEO Tips
 1. Use exact match keywords: "number tracing worksheets" not "practice numbers worksheet"
 2. Include grade levels: "preschool" AND "kindergarten" in titles
-3. Use "instant download" and "printable" - these are high-search terms
+3. Use "instant download" and "printable" — these are high-search terms
 4. Mention format: "PDF", "Google Sheets", "Excel" so buyers can search by format
 5. Keep first 60 characters of title most important (mobile truncation)
 
@@ -306,16 +310,19 @@ Homeschool Budget Bundle | Monthly + Annual + Curriculum Tracker | Excel Google 
 - **Image 4:** In-use photo (child's hand tracing) if possible - high conversion!
 - **Image 5:** Full set spread out showing quantity
 - **Video:** Optional but recommended - show PDF pages flipping
+- **Minimum size:** 1280x720px (Payhip); 1920x1080px preferred
 
 ---
 
 ## Next Step: Upload These Listings
 
-1. Create your Etsy seller account (when ready)
-2. Upload product images (screenshots of actual generated PDFs)
-3. Copy-paste the title, description, tags above
-4. Set price according to your market research (start in middle of range)
-5. Preview on mobile app - ensure title is readable
-6. Launch!
+1. 🔲 Decide on a shop name (branding) — see README for suggestions
+2. Create your Payhip account at [payhip.com](https://payhip.com) (free, no credit card)
+3. Upload product images (screenshots of actual generated PDFs → polish in Canva)
+4. Copy-paste the title, description, and tags above for each listing
+5. Set price per pricing strategy above
+6. Preview on mobile — ensure title is readable
+7. Launch!
+8. **Optional:** Mirror all listings on [Gumroad](https://gumroad.com) as backup storefront
 
 **Wait time for first sale:** With good SEO + 5-7 listings, expect first sale within 7-14 days if priced competitively.

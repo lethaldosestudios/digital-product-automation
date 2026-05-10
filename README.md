@@ -1,10 +1,28 @@
 # Digital Product Automation Project - by: Porter LaForce
 
-**Status:** Phase 2 Complete - MVP Generators Built | Ready for Phase 3 (Etsy Setup)
+**Status:** Phase 2 Complete - MVP Generators Built | Ready for Phase 3 (Payhip Store Setup)
 
-**Project Goal:** Launch automated digital product store on Etsy selling preschool worksheets and homeschool budget spreadsheets with zero manual fulfillment.
+**Project Goal:** Launch automated digital product store on Payhip selling preschool worksheets and homeschool budget spreadsheets with zero manual fulfillment.
 
-**Timeline:** First listing ready immediately (this package). Etsy account setup → live listings → first sale within 2-3 weeks.
+**Primary Platform:** [Payhip](https://payhip.com) | **Backup Platform:** [Gumroad](https://gumroad.com)
+
+**Timeline:** First listing ready immediately (this package). Payhip account setup → live listings → first sale within 2-3 weeks.
+
+---
+
+## ✅ TO-DO List
+
+- [ ] **Decide on a shop name (branding)** ← New Task
+- [ ] Review generated sample files in `output_worksheets/` and `output_budgets/`
+- [ ] Create Payhip seller account
+- [ ] Design product images (screenshots of sample PDFs)
+- [ ] Create first 3 listings (copy from `LISTING_TEMPLATES.md`)
+- [ ] Launch first 5 listings on Payhip
+- [ ] Monitor traffic — adjust titles/tags if < 100 views/day after Week 1
+- [ ] Make first sales (target: Week 2-3)
+- [ ] After 10 sales: Review pricing, add 2 more listings, iterate
+- [ ] After 20 sales/week: Set up Payhip webhook automation
+- [ ] Evaluate upgrading to Payhip Pro ($99/mo) when revenue exceeds ~$500/month
 
 ---
 
@@ -40,11 +58,11 @@ Generates Excel/Google Sheets budget templates:
 Unified entry point for order processing:
 - `generate_preschool_order()` - customizes PDFs on demand
 - `generate_budget_order()` - creates spreadsheets with family name
-- `webhook_handler()` - skeleton for Etsy/Gumroad integration (future)
+- `webhook_handler()` - skeleton for Payhip/Gumroad integration (future)
 
 **Quick Test:** `python3 automation_server.py` generates both product types.
 
-### 4. Etsy Listing Templates (`LISTING_TEMPLATES.md`)
+### 4. Payhip Listing Templates (`LISTING_TEMPLATES.md`)
 
 Copy-paste ready content for 5 listings:
 - Numbers 1-10 bundle ($11.99)
@@ -114,57 +132,64 @@ result = server.generate_budget_order(budget_order)
 
 ---
 
-## Phase 3: Etsy Setup (Requires You)
+## Phase 3: Payhip Store Setup (Requires You)
 
-### Step 1: Create Etsy Seller Account
+### Step 1: Create Payhip Account
 
-1. Go to [etsy.com](https://www.etsy.com) and click "Sell on Etsy"
-2. Choose shop preferences (language, country, currency)
-3. Set up shop name (suggestions below)
-4. Add payment method (bank account for deposits)
-5. Set up billing (credit card for listing fees - $0.20 per listing)
-6. Add shop policies (returns, shipping, etc. - for digital products set "No returns" and processing time "1-2 days" for instant downloads)
+1. Go to [payhip.com](https://payhip.com) and click "Get Started Free"
+2. Create your free account (no credit card required)
+3. Set up your store name — see shop name suggestions below
+4. Add payment method via Stripe or PayPal (Payhip connects these for payouts)
+5. Set up your store policies (for digital products: "No refunds" after download)
+6. No per-listing fees — listings are free on Payhip
 
-**Shop Name Ideas:**
-- PrintableLearningCo
-- EarlyMathPrintables
-- HomeschoolBudgetShop
-- SimplePrintablesCo
+**Shop Name Ideas (Payhip-optimized):**
+- LearnWithLaForce
+- PrintableNestCo
+- HomeschoolShopCo
+- EarlyLearningVault
 - LearningBundleHQ
+- ThePrintableDesk
+- NestLearningCo
 
-### Step 2: Create Listings
+> 🔲 **TO-DO: Decide on a shop name (branding)** — pick one from above or create your own!
 
-1. Click "Add listing" in your Etsy dashboard
-2. Upload product images (screenshots from generated files)
-3. Copy-paste title, description, tags from `LISTING_TEMPLATES.md`
+**Backup Option — Gumroad:**
+If you want a second storefront or to test both platforms:
+1. Go to [gumroad.com](https://gumroad.com) and sign up free
+2. Create the same listings with the same content
+3. Gumroad charges 10% per sale (higher than Payhip's 5%) but has built-in creator discovery
+
+### Step 2: Create Listings on Payhip
+
+1. Click "Add Product" → select "Digital Product"
+2. Upload your PDF or Excel file as the product file
+3. Copy-paste title, description, and tags from `LISTING_TEMPLATES.md`
 4. Set price (start with recommended prices, adjust after 10 sales based on demand)
-5. Category selection: See "Category Selection" section in LISTING_TEMPLATES.md
-6. Item type: "Digital download"
-7. Upload sample file (include first page or preview)
-8. Publish!
+5. Upload product preview image (screenshot of sample pages)
+6. Toggle "Instant Download" — Payhip delivers files automatically on purchase
+7. Publish!
 
 ### Step 3: Initial Listings (Launch with 5-7 Products)
 
 - **Preschool line (3 listings):** Numbers 1-10, 11-20, Complete 1-20
-- **Budget line (2 listings):** Monthly Budget, Complete Bundle
+- **Budget line (2 listings):** Monthly Budget, Complete Finance Bundle
 
 You can add the curriculum tracker later as a standalone or as part of bundle.
 
 ### Step 4: Handle Orders Manually (Initially)
 
 For first 20-50 sales:
-1. Check Etsy dashboard for new orders
-2. Note customer name (and child name if provided in "notes to seller")
+1. Check Payhip dashboard for new orders
+2. Note customer name (and child name if provided in "notes to buyer" field)
 3. Run appropriate generator command locally:
    ```bash
-   python3 automation_server.py  # but you'll need to customize to take args
+   python3 automation_server.py
    ```
-   Or better: I'll create a simple CLI wrapper for you to run with parameters.
+4. Upload individualized PDF to the order in Payhip's dashboard
+5. Payhip sends automatic delivery email — optionally follow up with a personal message
 
-4. Upload individualized PDF to Etsy's "Digital files" section for that order
-5. Confirm order and send message "Your order is ready! Download from your purchases page."
-
-**Alternative:** Set up webhook integration (see below) after you stabilize.
+**Alternative:** Set up Payhip webhook integration (see below) after you stabilize.
 
 ---
 
@@ -172,22 +197,28 @@ For first 20-50 sales:
 
 Once you're getting consistent sales (20+/week), we can automate fulfillment:
 
-1. **Etsy API Setup** (requires Etsy developer account)
-   - Apply for Etsy API access: https://developers.etsy.com/
-   - Create app, get API key/secret
-   - Enable "order listing" and "order details" permissions
+1. **Payhip Webhook Setup** (primary)
+   - Go to Payhip dashboard → Settings → Webhooks
+   - Add your server endpoint URL
+   - Payhip sends a POST request for every purchase event
+   - Docs: https://payhip.com/api
 
-2. **Configure Zo Service**
-   - Save Etsy API credentials in [Settings > Advanced](/?t=settings&s=advanced) as `ETSY_API_KEY`, `ETSY_API_SECRET`
-   - Deploy automation_server.py as a persistent service on Zo
-   - Set up webhook endpoint in Etsy developer portal to point to your Zo service
+2. **Gumroad Webhook Setup** (backup/secondary store)
+   - Go to Gumroad → Settings → Advanced → Ping URL
+   - Add your server endpoint URL
+   - Docs: https://app.gumroad.com/api
 
-3. **Auto-Generate & Deliver**
+3. **Configure Server**
+   - Save Payhip/Gumroad webhook secrets in environment variables as `PAYHIP_WEBHOOK_SECRET`, `GUMROAD_WEBHOOK_SECRET`
+   - Deploy `automation_server.py` as a persistent service
+   - The existing `webhook_handler()` skeleton is ready for this integration
+
+4. **Auto-Generate & Deliver**
    - Webhook triggers on purchase
    - Server extracts customization data (child name, numbers, etc.)
    - Generate personalized PDF automatically
-   - Upload to Etsy's CDN and attach to order
-   - Send delivery confirmation message
+   - Payhip delivers file to buyer automatically via its CDN
+   - Send custom delivery confirmation message
 
 **Timeline for automation:** 1-2 weeks after consistent sales pattern emerges.
 
@@ -196,58 +227,64 @@ Once you're getting consistent sales (20+/week), we can automate fulfillment:
 ## Pricing & Revenue Projections
 
 ### Assumptions
-- **Conversion rate:** 2% of views to sales (typical Etsy digital products)
-- **Initial traffic:** 50-100 views/day with 5 listings = ~1500-3000 views/month
+- **Conversion rate:** 2% of views to sales (typical digital products)
+- **Initial traffic:** 50-100 views/day with 5 listings = ~1,500-3,000 views/month
 - **Monthly sales:** 30-60 orders (conservative)
 - **Average order value:** $13-18
 
 ### Revenue Projections
 
-| Month | Listings | Est. Orders | Avg. Price | Revenue | Etsy Fees (10%) | Net |
-|-------|----------|-------------|------------|---------|-----------------|-----|
-| 1 | 5 | 25 | $13 | $325 | $33 | $292 |
-| 2 | 7 | 45 | $14 | $630 | $63 | $567 |
-| 3 | 10 | 70 | $15 | $1,050 | $105 | $945 |
-| 6 | 12 | 120 | $16 | $1,920 | $192 | $1,728 |
+| Month | Listings | Est. Orders | Avg. Price | Revenue | Payhip Fees (5%) | Net |
+|-------|----------|-------------|------------|---------|------------------|-----|
+| 1 | 5 | 25 | $13 | $325 | $16 | $309 |
+| 2 | 7 | 45 | $14 | $630 | $32 | $598 |
+| 3 | 10 | 70 | $15 | $1,050 | $53 | $997 |
+| 6 | 12 | 120 | $16 | $1,920 | $96 | $1,824 |
 
-**Year 1 total (conservative):** $8,000-12,000 net profit after fees
-**Year 2 (automated, 20 listings):** $20,000-30,000
+> **Payhip vs Gumroad fee comparison:** Payhip charges 5% per sale; Gumroad charges 10%. On $1,920 revenue, that's $96 vs $192 — Payhip saves ~$96/month at Month 6.
+
+**Year 1 total (conservative):** $9,000-13,500 net profit after fees
+**Year 2 (automated, 20 listings):** $22,000-32,000
 
 *Note: This does not include tax implications. Consult an accountant.*
 
 ### Cost Structure
-- **Initial setup:** $0 (already have Zo server, all tools free)
-- **Monthly costs:** $0-5 (Zo free tier covers everything)
-- **Per-listing fee:** $0.20 (paid to Etsy when listing)
-- **Transaction fee:** 6.5% + $0.20 payment processing (from Etsy)
-- **Total platform take:** ~10-11% including payment processing
+- **Initial setup:** $0 (Payhip free tier, all tools free)
+- **Monthly costs:** $0 (Payhip free plan)
+- **Per-listing fee:** $0 (Payhip does not charge listing fees)
+- **Transaction fee:** 5% per sale (Payhip free plan)
+- **Upgrade option:** Payhip Plus ($29/mo, 2% fee) or Pro ($99/mo, 0% fee)
+- **Gumroad backup:** 10% per sale, $0/month
 
 ---
 
 ## Why This Works
 
-1. **Proven demand:** Bestsellers with 2k-12k reviews on Etsy prove market exists
-2. **Low competition:** Niching to "preschool number worksheets" (258 listings) vs generic "preschool printables" (230k+)
+1. **Proven demand:** Bestsellers with 2k-12k reviews in this niche prove the market exists
+2. **Low competition:** Niching to "preschool number worksheets" and "homeschool budget templates" — specific, searchable, underserved
 3. **Perfect for automation:**
    - PDFs are parameterized: child's name + numbers → unique product
    - Spreadsheets are templated: family name auto-placed
    - Zero marginal cost per additional sale
-4. **Etsy handles payment & delivery:** No Stripe, no hosting fees
+4. **Payhip handles payment & delivery:** No Stripe setup needed, no hosting fees
 5. **Scalable:** One generator → infinite variations (different numbers, custom family names)
-6. **Fast time to market:** 2 weeks from Etsy account to first listing
+6. **Fast time to market:** Create Payhip account → first listing live in under an hour
+7. **Lower fees than alternatives:** 5% on Payhip vs 10-11% on other platforms — keeps more revenue per sale
 
 ---
 
 ## Next Immediate Actions
 
-1. **Today:** Review generated sample files in `output_worksheets/` and `output_budgets/`
-2. **Today:** Create Etsy seller account (if you're ready)
-3. **Today:** Design product images (screenshots of sample PDFs)
-4. **Tomorrow:** Create first 3 listings (copy from LISTING_TEMPLATES.md)
-5. **Within 48h:** Launch first 5 listings
-6. **Week 1:** Monitor impressions, adjust titles/tags if < 100 impressions/day
-7. **Week 2-3:** Make first sales (hopefully!)
-8. **After 10 sales:** Review pricing, add 2 more listings, iterate
+1. **Today:** 🔲 Decide on a shop name (branding) — see suggestions in Phase 3 above
+2. **Today:** Review generated sample files in `output_worksheets/` and `output_budgets/`
+3. **Today:** Create Payhip account at [payhip.com](https://payhip.com)
+4. **Today:** Design product images (screenshots of sample PDFs)
+5. **Tomorrow:** Create first 3 listings (copy from `LISTING_TEMPLATES.md`)
+6. **Within 48h:** Launch first 5 listings on Payhip
+7. **Optional:** Mirror listings on Gumroad as backup storefront
+8. **Week 1:** Monitor views, adjust titles/descriptions if < 100 views/day
+9. **Week 2-3:** Make first sales!
+10. **After 10 sales:** Review pricing, add 2 more listings, iterate
 
 ---
 
@@ -255,14 +292,14 @@ Once you're getting consistent sales (20+/week), we can automate fulfillment:
 
 ```
 Digital_Product_Automation/
-├── README.md                    # This file
-├── LISTING_TEMPLATES.md         # Copy-paste Etsy content
-├── AGENTS.md                    # Project memory (update as we go)
+├── README.md                        # This file
+├── LISTING_TEMPLATES.md             # Copy-paste Payhip/Gumroad listing content
+├── PRODUCT_CATALOG.md               # Product details and mockup guidance
 ├── preschool_number_generator.py    # PDF generator for number worksheets
 ├── homeschool_budget_generator.py   # Excel generator for budgets
-├── automation_server.py         # Unified order processor
-├── output_worksheets/           # Generated PDF samples (safe to delete/regen)
-└── output_budgets/              # Generated Excel samples
+├── automation_server.py             # Unified order processor
+├── output_worksheets/               # Generated PDF samples (safe to delete/regen)
+└── output_budgets/                  # Generated Excel samples
 ```
 
 ---
@@ -270,17 +307,18 @@ Digital_Product_Automation/
 ## Support & Questions
 
 - **Technical issues:** Check Python dependencies, file permissions
-- **Etsy questions:** Refer to Etsy Seller Help Center
+- **Payhip questions:** Refer to [Payhip Help Center](https://help.payhip.com)
+- **Gumroad questions (backup):** Refer to [Gumroad Help Center](https://help.gumroad.com)
 - **Customization requests:** Can add new worksheet types (alphabet, shapes, colors) or new budget templates (sports team, small business) in 1-2 hours each
 
 ---
 
 **Let's make your first sale!** 🎯
 
-Ready to proceed? I'll be available when you need:
-- Etsy account setup guidance
+Ready to proceed? Available when you need:
+- Payhip store setup guidance
 - Review of listing drafts before publishing
 - New product ideas based on sales data
 - Webhook automation after you hit 20 sales/week
 
-**Your next move:** Create Etsy seller account, then let me know your shop name so I can customize branding suggestions.
+**Your next move:** 🔲 Decide on a shop name, then create your Payhip account!
