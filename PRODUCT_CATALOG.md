@@ -1,8 +1,8 @@
 # Product Catalog & Mockups
 
-This document shows exactly what each digital product looks like and provides guidance for creating Payhip listing images.
+This document shows exactly what each digital product looks like and provides guidance for creating Lemon Squeezy listing images.
 
-> **Primary Platform:** [Payhip](https://payhip.com) | **Backup Platform:** [Gumroad](https://gumroad.com)
+> **Primary Platform:** [Lemon Squeezy](https://lemonsqueezy.com) | **Backup Platform:** [Gumroad](https://gumroad.com)
 
 ---
 
@@ -136,7 +136,7 @@ A: Math | B: Singapore Math 1A | C: Sonlight | D: $45.99 | E: 1st | F: Purchased
 4. Add text overlay with Canva/Photoshop/GIMP: "20+ Pages", "Instant Download", "Reusable"
 5. Save as JPG/PNG
 
-**Payhip image minimum:** 1280x720px recommended; 1920x1080px preferred.
+**Lemon Squeezy image minimum:** 1920x1080px preferred.
 
 ### Option 2: Automated Mockups (Better, but needs setup)
 
@@ -147,14 +147,14 @@ If you want professional-looking mockups:
 3. Use Canva or simple Python imaging to add badges (e.g., "20+ Pages")
 4. Export as 1920x1080px images
 
-**Simplest approach:** Take good screenshots, upload to Canva, add consistent branding (your shop name/logo in corner), export at 1920x1080.
+**Simplest approach:** Take good screenshots, upload to Canva, add consistent branding (shop name/logo in corner), export at 1920x1080.
 
 ---
 
 ## Image Checklist Per Listing
 
-**Minimum:** 1 image (main thumbnail)
-**Recommended:** 5 images + 1 video
+**Minimum:** 1 image (main thumbnail)  
+**Recommended:** 5 images + 1 video  
 **Required:** At least 1 image showing the actual product
 
 ### Image Sequence (5 images)
@@ -175,15 +175,15 @@ If you want professional-looking mockups:
 
 ## Pricing Table for Listings
 
-| Product | List Price | Sale Price | Cost to Produce | Payhip Fee (5%) | Net per Sale | Gumroad Net (10% fee) |
-|---------|------------|------------|-----------------|-----------------|--------------|----------------------|
-| Numbers 1-10 | $14.99 | $11.99 (20% off) | $0 | ~$0.60 | ~$11.39 | ~$10.79 |
-| Numbers 11-20 | $11.99 | $9.99 (17% off) | $0 | ~$0.50 | ~$9.49 | ~$8.99 |
-| Complete 1-20 | $29.99 | $18.99 (37% off) | $0 | ~$0.95 | ~$18.04 | ~$17.09 |
-| Monthly Budget | $16.00 | $12.99 (19% off) | $0 | ~$0.65 | ~$12.34 | ~$11.69 |
-| Finance Bundle | $39.99 | $24.99 (38% off) | $0 | ~$1.25 | ~$23.74 | ~$22.49 |
+| Product | List Price | Sale Price | Cost to Produce | LS Fee (5% + $0.50) | Net per Sale | Gumroad Net (10% fee) |
+|---------|------------|------------|-----------------|---------------------|--------------|----------------------|
+| Numbers 1-10 | $14.99 | $11.99 (20% off) | $0 | ~$1.10 | ~$10.89 | ~$10.79 |
+| Numbers 11-20 | $11.99 | $9.99 (17% off) | $0 | ~$1.00 | ~$8.99 | ~$8.99 |
+| Complete 1-20 | $29.99 | $18.99 (37% off) | $0 | ~$1.45 | ~$17.54 | ~$17.09 |
+| Monthly Budget | $16.00 | $12.99 (19% off) | $0 | ~$1.15 | ~$11.84 | ~$11.69 |
+| Finance Bundle | $39.99 | $24.99 (38% off) | $0 | ~$1.75 | ~$23.24 | ~$22.49 |
 
-> **Note:** Payhip's 5% fee significantly outperforms Gumroad's 10% — use Payhip as primary, Gumroad as backup only.
+> **Note:** Lemon Squeezy's 5% + $0.50/sale fee is competitive at higher price points and includes built-in tax/VAT handling. Use Lemon Squeezy as primary, Gumroad as backup only.
 
 **Why the deep discount on bundles?** To incentivize higher order value. Customer feels they're getting a deal, you still net more per sale.
 
@@ -209,21 +209,14 @@ If you want professional-looking mockups:
 
 ---
 
-## Branding Suggestions
+## Branding
 
 > 🔲 **TO-DO: Decide on a shop name (branding)**
 
-**Shop Name Ideas (Payhip-optimized):**
-- LearnWithLaForce
-- PrintableNestCo
-- HomeschoolShopCo
-- EarlyLearningVault
-- LearningBundleHQ
-- ThePrintableDesk
-- NestLearningCo
+**Shop Name:** The Printable Desk | **URL:** ThePrintableDesk ← top candidate
 
 **Logo:** Simple text-based, use Canva (free) or hire Fiverr ($20)
-- Shop initials with pencil icon or calculator icon
+- Shop initials with pencil icon or desk icon
 
 **Colors:** Suggest blue/teal (trust, professional) + accent color (yellow/orange for learning)
 - Primary: #366092 (deep blue — trust and education)
@@ -254,7 +247,7 @@ A: Yes! Contact us for custom worksheet types (letters, shapes, sight words) or 
 ## Sample Customer Communication Templates
 
 ### Order Confirmation
-Payhip delivers the download link automatically on purchase. No action needed for standard orders.
+Lemon Squeezy delivers the download link automatically on purchase. No action needed for standard orders.
 
 ### Follow-up Message (3 days later - optional)
 > Hi [Customer Name]! Hope you're enjoying your [product name]. Quick question: Is there anything else you'd like to see in our worksheets? We're always creating new products based on customer feedback. Let us know!
@@ -262,7 +255,7 @@ Payhip delivers the download link automatically on purchase. No action needed fo
 > Also, if you have a moment, we'd love a review on our store page — it helps other families find our resources.
 >
 > Thanks for supporting our small shop!
-> - [Your Name]
+> - The Printable Desk
 
 ### Custom Order Inquiry Response
 > We'd be happy to create a custom [description] for you! Custom orders typically take 24-48 hours and start at $15 depending on complexity. Please reply with any specific requirements (grade level, topics, number of pages, budget range) and I'll send a quote.
@@ -271,7 +264,7 @@ Payhip delivers the download link automatically on purchase. No action needed fo
 
 ## Analytics & Iteration (After Launch)
 
-Track these metrics in Payhip dashboard:
+Track these metrics in your Lemon Squeezy dashboard:
 
 **Health metrics:**
 - **Views:** How many times your product page is visited
@@ -297,13 +290,13 @@ Track these metrics in Payhip dashboard:
 
 ## Next Steps Checklist
 
-- [ ] **Decide on a shop name (branding)** ← TO-DO
+- [ ] **Decide on a shop name (branding)** — **ThePrintableDesk** is the top candidate ← TO-DO
 - [ ] Generate sample files to verify output quality
 - [ ] Create product images (screenshots → Canva mockups)
-- [ ] Create Payhip account at [payhip.com](https://payhip.com)
+- [ ] Log in to your Lemon Squeezy store at [app.lemonsqueezy.com](https://app.lemonsqueezy.com)
 - [ ] Write first 3 listings using templates above
-- [ ] Publish listings on Payhip
-- [ ] (Optional) Mirror listings on [Gumroad](https://gumroad.com) as backup
+- [ ] Publish listings on Lemon Squeezy
+- [ ] (Optional) Mirror listings on [Gumroad](https://gumroad.com) as backup storefront
 - [ ] Daily: Check stats for first week
 - [ ] After 5 visits/day: Optimize listings
 - [ ] After first sale: Celebrate 🎉
@@ -312,7 +305,7 @@ Track these metrics in Payhip dashboard:
 
 **Ready to launch.** All technical pieces are built. Your job is to:
 1. Decide on your shop name
-2. Create Payhip account
+2. Log in to Lemon Squeezy
 3. Make pretty pictures
 4. Copy-paste listings
 5. Press publish

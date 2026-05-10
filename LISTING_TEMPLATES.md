@@ -1,8 +1,8 @@
-# Payhip Listing Templates
+# Lemon Squeezy Listing Templates
 
-> **Primary Platform:** [Payhip](https://payhip.com) | **Backup Platform:** [Gumroad](https://gumroad.com)
+> **Primary Platform:** [Lemon Squeezy](https://lemonsqueezy.com) | **Backup Platform:** [Gumroad](https://gumroad.com)
 
-These are copy-paste ready listings for your Payhip store (also compatible with Gumroad). Each listing includes:
+These are copy-paste ready listings for your Lemon Squeezy store (also compatible with Gumroad). Each listing includes:
 - Optimized title
 - Compelling description with benefits and what's included
 - Tags/keywords for SEO
@@ -276,11 +276,11 @@ Homeschool Budget Bundle | Monthly + Annual + Curriculum Tracker | Excel Google 
 
 ---
 
-## Payhip Store Optimization Notes
+## Lemon Squeezy Store Optimization Notes
 
 > **Backup:** All of the below also applies to Gumroad listings.
 
-### Category Selection (Payhip)
+### Category Selection (Lemon Squeezy)
 - **Preschool Worksheets:** Education → Printables / Worksheets
 - **Budget Spreadsheets:** Business → Templates / Spreadsheets
 
@@ -310,14 +310,14 @@ Homeschool Budget Bundle | Monthly + Annual + Curriculum Tracker | Excel Google 
 - **Image 4:** In-use photo (child's hand tracing) if possible - high conversion!
 - **Image 5:** Full set spread out showing quantity
 - **Video:** Optional but recommended - show PDF pages flipping
-- **Minimum size:** 1280x720px (Payhip); 1920x1080px preferred
+- **Minimum size:** 1920x1080px preferred
 
 ---
 
 ## Next Step: Upload These Listings
 
-1. 🔲 Decide on a shop name (branding) — see README for suggestions
-2. Create your Payhip account at [payhip.com](https://payhip.com) (free, no credit card)
+1. 🔲 Decide on a shop name (branding) — **ThePrintableDesk** is the top candidate
+2. Log in to your Lemon Squeezy store at [app.lemonsqueezy.com](https://app.lemonsqueezy.com)
 3. Upload product images (screenshots of actual generated PDFs → polish in Canva)
 4. Copy-paste the title, description, and tags above for each listing
 5. Set price per pricing strategy above
