@@ -1,4 +1,4 @@
-# Digital Product Automation Project - SLABS Innovation
+# Digital Product Automation Project - by: Porter LaForce
 
 **Status:** Phase 2 Complete - MVP Generators Built | Ready for Phase 3 (Etsy Setup)
 
