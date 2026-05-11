@@ -2,6 +2,10 @@
 
 ## 🔲 TO-DO
 - 🔲 Decide on a shop name (branding) — **ThePrintableDesk** is the top candidate
+- 🔲 Create logo and favicon (see Branding section below)
+- 🔲 Choose theme color: **Lemon** vs **Blackberry** (decision pending)
+- 🔲 Generate free sampler lead magnet — Numbers 1-3 preview PDF (free listing on Lemon Squeezy)
+- 🔲 Create product cover images (screenshots → Canva at 1920x1080px)
 
 ---
 
@@ -12,6 +16,33 @@
 **Store Name:** The Printable Desk | **Store URL:** ThePrintableDesk
 
 **Timeline:** First listing ready immediately (this package). Lemon Squeezy store setup → live listings → first sale within 2-3 weeks.
+
+---
+
+## Branding
+
+### Shop Name
+**The Printable Desk** (display) | **ThePrintableDesk** (URL slug)
+
+### Theme Color Options (Decision Pending)
+
+| Option | Primary | Accent | Feel |
+|---|---|---|---|
+| **Lemon** | `#F5C518` (warm yellow) | `#FFFFFF` + `#2D2D2D` | Bright, playful, energetic |
+| **Blackberry** | `#3B1F5E` (deep purple) | `#E8D5F5` + `#FFFFFF` | Premium, calm, trustworthy |
+
+### Logo Concept
+- Icon: pencil + desk or open book on a desk
+- Font: rounded, friendly (e.g., Nunito, Poppins)
+- Style: simple, scalable (works at 512px logo AND 32px favicon)
+
+### Favicon
+- Use the logo icon only (no text) — typically initials "TPD" or just the pencil/desk icon
+- Export at 32x32px and 192x192px
+
+### Brand Colors (Confirmed Base)
+- Neutral: `#FFFFFF` (white), `#F5F5F5` (light gray)
+- Text: `#2D2D2D` (near-black for readability)
 
 ---
 
@@ -152,6 +183,7 @@ result = server.generate_budget_order(budget_order)
 
 - **Preschool line (3 listings):** Numbers 1-10, Numbers 11-20, Complete 1-20
 - **Budget line (2 listings):** Monthly Budget, Complete Finance Bundle
+- **Lead magnet (1 free listing):** Numbers 1-3 Sampler — free download to drive discovery
 
 Add the curriculum tracker later as a standalone or bundle upgrade.
 
@@ -259,11 +291,11 @@ Once you're getting consistent sales (20+/week), automate personalized fulfillme
 
 ## Next Immediate Actions
 
-1. **Today:** Review generated sample files in `output_worksheets/` and `output_budgets/`
-2. **Today:** Upload first product to Lemon Squeezy dashboard (copy from `LISTING_TEMPLATES.md`)
-3. **Today:** Design product cover images (screenshots of sample PDFs)
-4. **Tomorrow:** Create first 3 listings (preschool Numbers 1-10, 11-20, Complete 1-20)
-5. **Within 48h:** Launch first 5 listings and share store link
+1. **Today:** Finalize logo, favicon, and theme color (Lemon vs Blackberry)
+2. **Today:** Review generated sample files in `output_worksheets/` and `output_budgets/`
+3. **Today:** Design product cover images (screenshots → Canva at 1920x1080px)
+4. **Tomorrow:** Upload first 3 listings using `LISTING_TEMPLATES.md`
+5. **Within 48h:** Launch first 5 listings + free lead magnet (Numbers 1-3 sampler)
 6. **Week 1:** Monitor orders and views; adjust titles/tags if < 100 impressions/day
 7. **Week 2-3:** Make first sales
 8. **After 10 sales:** Review pricing, add 2 more listings, iterate
@@ -306,4 +338,4 @@ Ready to proceed? Available when you need:
 - New product ideas based on sales data
 - Webhook automation after you hit 20 sales/week
 
-**Your next move:** Upload first product to [The Printable Desk on Lemon Squeezy](https://app.lemonsqueezy.com), then let me know when it's live!
+**Your next move:** Finalize logo + theme color, then upload first product to [The Printable Desk on Lemon Squeezy](https://app.lemonsqueezy.com)!
